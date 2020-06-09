@@ -1,10 +1,26 @@
-const num = 266219;
-const arr=[];
-const reducer = (accumulator, currentValue) => accumulator * currentValue;
-for(let temp = num;Math.round(temp)!=0;temp/=10,temp = Math.floor(temp)){
-  arr.unshift(temp%10);
-}
-let prov = (arr.reduce(reducer))
-prov = prov ** 3;
-prov = String(prov);
-document.write(prov.substr(0, 2));
+// let lang = 'ru';
+// if (lang === 'ru') {
+//     var arr = ['пн', 'вт', 'ср', 'чт', 'пт', 'сб', 'вс'];
+// }
+// if (lang === 'en') {
+//     aar = ['mn', 'ts', 'wd', 'th', 'fr', 'st', 'sn'];
+// }
+// console.log(arr);
+//switch
+// let lang = 'ru';
+// switch (lang) {
+//     case 'ru':
+//         var arr = ['пн', 'вт', 'ср', 'чт', 'пт', 'сб', 'вс'];
+//         break;
+//     case 'en':
+//         arr = ['mn', 'ts', 'wd', 'th', 'fr', 'st', 'sn'];
+//         break;
+// }
+// console.log(arr);
+// массив
+// let lang = 'ru';
+// let arr = {
+//     'ru':['пн', 'вт', 'ср','чт', 'пт', 'сб', 'вс'],
+//     'en':['mn', 'ts', 'wd', 'th', 'fr', 'st', 'sn'],
+// };
+// console.log(arr[lang]);
