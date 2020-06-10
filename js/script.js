@@ -24,3 +24,10 @@
 //     'en':['mn', 'ts', 'wd', 'th', 'fr', 'st', 'sn'],
 // };
 // console.log(arr[lang]);
+let namePerson = prompt('Имя?', 'Артем');
+let message = (namePerson === 'Артем') ? 'Директор' : 
+  (namePerson === 'Максим') ? 'преподаватель' :
+  'студент';
+console.log(message);
+
+
